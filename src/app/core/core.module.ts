@@ -4,8 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { HttpClientModule } from "@angular/common/http";
 import { RouterModule } from "@angular/router";
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-
 
 @NgModule({
   imports: [
@@ -13,9 +11,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    RouterModule,
-    FormsModule, 
-    ReactiveFormsModule
+    RouterModule
   ],
   declarations: [
   ],
@@ -24,8 +20,6 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    FormsModule, 
-    ReactiveFormsModule
 
     // shared components
   ]
